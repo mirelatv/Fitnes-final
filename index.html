@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="display:none"   class="containerSplash"></div>
+    <header>
+      <ul class="nav nav-pills">
+        <li role="presentation" class=""><img class="imgFitnes" src="assets/images/logo-fitnes.png" alt=""></li>
+        <li role="presentation" class=""><button class=" btn1 first " data-toggle="modal" data-target=".bs-example-modal-sm">LogIn</button> </li>
+        <li role="presentation" class=""><button class=" btn1 register"   data-toggle="modal" data-target="#myModal">Register</button></li>
+        <div id="login" role="presentation" class=""><button id="start-login">iniciar sesion con Google</button></div>
+               
+      </ul>
+    </header>
+    
+    <section class=" firtsPage" >
+       
+      <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+           <div class="modal-content ">
+             <br>
+              <input id="username2" class="m1 "  id="acceso"  placeholder="Correo de acceso" type="mail-acceso">
+              <br>
+              <input id="password2" class=" m1" id="PasswordRegistrado" placeholder="Pasword registrado" type="password"> 
+              <br>
+              <button  id="submit2" type="button" class="btn btn-default modalButton mb1" data-dismiss="modal" href='views/index2.html'>Ingresar!</button>
+              <br>
+              <br>
+              
+           </div>
+                 
+        </div>
+      </div>
+        <!-- Modal -->
+     <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              
+            </div>
+            <div class="modal-body">
+                <div class="createCount">
+                    <form action="#" method="post">
+                      <p>
+                        <label for="Email">Username</label>
+                        <input id="username" placeholder="username" type="email">
+                        <span style="display:none">Enter a username longer than 3 characters</span>
+                      </p>
+                      <p>
+                        <label for="password">Password</label>
+                        <input id="password" placeholder="password" type="password">
+                        <span style="display:none">Enter a password longer than 6 characters</span>
+                        </p>
+                            
+                     <p>
+                       <input id="submit"  class=" modalButton"   type="button" value="Registrarse" >
+                    </p>
+                   </form>   
+                 </div>
+            
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default modalButton" data-dismiss="modal">Welcome!</button>
+            </div>
+          </div>
+          
+        </div>
+       
+      
+
+        
+
+    </section>
+        
+        
+    
+       
+   
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyCP8cWojta5O-7-hinpXcZMTBX4-gi4HPg",
+        authDomain: "usuarios-472dd.firebaseapp.com",
+        databaseURL: "https://usuarios-472dd.firebaseio.com",
+        projectId: "usuarios-472dd",
+        storageBucket: "usuarios-472dd.appspot.com",
+        messagingSenderId: "470644492759"
+    };
+    firebase.initializeApp(config);
+    </script>
+    <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+    <Script src="js/app.js"></script>
+    
+      
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+    <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body class>
+  <header>
+        <nav class="navbar navbar-default  backgr">
+                <div class="container-fluid">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <img src="../assets/images/logo-fitnes.png" alt="Brand"  class="navbar-brand">
+                  </div>
+              
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                      <li class="active"><a href="#">HOME<span class="sr-only">(current)</span></a></li>
+                      <li><a href="profile.html">PROFILE</a></li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Another action</a></li>
+                          <li><a href="#">Something else here</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">Separated link</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">One more separated link</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="navbar-form navbar-right">
+                      <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                      </div>
+                      <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                  </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+              </nav>
+  </header>
+  <section>
+
+      <div class="container">
+          
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+        
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img  class="carrusel" src="../assets/images/run.gif" alt="run" style="width:100%;">
+              </div>
+        
+              <div class="item">
+                <img  class="carrusel"src="../assets/images/women2.jpg" alt="women" style="width:100%;">
+              </div>
+            
+              <div class="item">
+                <img class="carrusel" src="../assets/images/tumb.gif" alt="New york" style="width:100%;">
+              </div>
+            </div>
+        
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        
+  </section>
+  <section class="container-fluid">
+      <div  class="row">
+          <p class=" col-md-3 col-offset-md-9 col-xs-6 ">
+            <h3 class=" text-left"><a href="https://www.youtube.com/watch?v=rxhx2n-fgKQ"> We All Start Together </a> </h3>
+            <img class="articulo1  " src="https://games-assets.crossfit.com/s3fs-public/styles/hero/public/CFG_Open_promo_Snook_WEB.jpg?itok=cF_52PV7" alt="">
+          </p>
+          <p class=" col-md-3 col-offset-md-9 col-xs-6 articulo1">
+            <h3 class="text-left "><a href="https://elpais.com/elpais/2017/11/22/fotorrelato/1511354020_096272.html"> Como dejar de odiar Correr</a> </h3>
+            <img class="articulo1  " src="../assets/images/correr.jpg" alt="">
+          </p>
+          <p class=" col-md-3 col-offset-md-9  col-xs-6 articulo1">
+            <h3 class=" text-left"><a href="http://vidasana.org/noticias/sector-bio-reforzando-monopolios-a-traves-de-la-red">Sector- Bio</a> </h3>
+            <img class="articulo1 " src="../assets/images/sectorbio.jpeg" alt="">
+          </p>
+          
+       </div>
+
+
+    
+
+
+  </section>
+
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyCP8cWojta5O-7-hinpXcZMTBX4-gi4HPg",
+        authDomain: "usuarios-472dd.firebaseapp.com",
+        databaseURL: "https://usuarios-472dd.firebaseio.com",
+        projectId: "usuarios-472dd",
+        storageBucket: "usuarios-472dd.appspot.com",
+        messagingSenderId: "470644492759"
+    };
+    firebase.initializeApp(config);
+    </script>
+    <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>

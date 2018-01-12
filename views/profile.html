@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Document</title>
+</head>
+
+<body class="profileBody">
+  <body class="profileBody">
+    <header class="headerBack">
+        <nav class="navbar navbar-default  backgr">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+              <img src="../assets/images/logo-fitnes.png" alt="Brand" class="navbar-brand">
+            </div>
+    
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index2.html">HOME<span class="sr-only">(current)</span></a></li>
+                <li><a class="" href="../index.html">Inicio</a></li>
+                <li style=" width:150px;margin-left:50%;margin-top:-17%;" class="close"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cerrar Sesion</a>
+                  
+                </li>
+              </ul>
+              <form class="navbar-form navbar-right">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Buscar amigos">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
+        </nav>
+      </header>
+    
+    <section class="container-fluid">
+        <div class="row profile">
+            <div   class=" contProfile col-xs-12 col-md-8 ">
+              <div  class=" col-xs-12 col-md-8 perfilImagecont thinking">
+                <p> <img class="small" src="../assets/images/perfilSmall.jpg" alt=""></p>
+                <p class="name paragraph"></p>
+                <p class="directionMail paragraph hidden-xs"></p>
+                
+              </div>
+              <ul class="ulProfile">
+                  
+                <li  class="listProfle" role="presentation"><a href="#">Informacion</a></li>
+                <li class="listProfle" role="presentation"><a href="#">Fotos</a></li>
+                <li class="listProfle" role="presentation"><a href="#">Amigos</a></li>
+              </ul>
+                    
+                  
+              
+            </div> 
+        </div>
+        
+
+       
+    </section>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCP8cWojta5O-7-hinpXcZMTBX4-gi4HPg",
+      authDomain: "usuarios-472dd.firebaseapp.com",
+      databaseURL: "https://usuarios-472dd.firebaseio.com",
+      projectId: "usuarios-472dd",
+      storageBucket: "usuarios-472dd.appspot.com",
+      messagingSenderId: "470644492759"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+  <Script src="../js/app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,320 @@
+
+body{
+  font-family: 'Vollkorn', serif;
+
+}
+
+header{
+    background: #fff;
+      margin-top: 0%
+    
+}
+ul{
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+nav ul {
+  margin-top: 0;
+}
+
+#start-login{
+  margin-left: 5%;
+  background-color: black;
+  color:white;
+  border-radius: 10%
+
+}
+#start-login:hover{
+  background-color: #0056b8;
+}
+.imgFitnes{
+
+  width: 150px;
+  margin-left: -10%;
+  margin-top: -10%;
+ 
+}
+
+.btn1{
+    display: inline-block;
+    background-color: black;
+    color:white;
+    border: 1px solid white;
+    margin-left:25%;
+    border-radius: 10%;
+    margin-top: 0%;
+    width: 80px
+    
+}
+.first{
+
+    margin-left: 50%;
+    display: inline-block;
+    background-color: black;
+    color:white;
+    border: 1px solid white;
+    margin-left:15%;
+    border-radius: 10%;
+    margin-top: 0%;
+    width: 80px
+}
+.rsocial{
+  width: 30px;
+  margin-left: 10px;
+}
+
+.firtsPage{
+    
+    background-image: url('https://games-assets.crossfit.com/s3fs-public/styles/sizzle/public/2018OpenSIzzle_8%20%281%29.jpg?itok=5zmFq68i');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}  
+.play{
+    margin-left: 20%;
+    margin-top: 5%;
+    background-color: transparent;
+    border-radius: 10%;
+    border: 1px solid white;
+    color: white;
+
+}
+
+form {
+    
+    padding: 4em 4em 2em;
+    max-width: 257px;
+    max-height: 350px;
+    margin: 10px auto 0;
+    margin-top: 5%;
+    box-shadow: 0 0 1em #222;
+    border-radius: 5px;
+  }
+  
+  p {
+    margin: 0 0 1em 0;
+    position: relative;
+    width: 150px;
+  }
+  
+  label {
+    display: block;
+    font-size: 1.2em;
+    margin: 0 0 .5em;
+    color: #333;
+    
+
+  }
+  
+  
+  input {
+    display: block;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="password-registrado"],
+  input[type="mail-acceso"],
+  input[type="search"], {
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    font-size: 1.1em; 
+    padding: .4em .2em;
+    width: 110px;
+     
+  }/*
+    border-radius: 5px;*/
+  
+
+  
+  span {
+    border-radius: 5px;
+    display: block;
+    font-size: 1 em;
+    text-align: center;
+    position: absolute;
+    background:#c40404;
+    left: 104%;
+    top: 25px;
+   
+    padding: 7px 10px;
+    color: #fff;
+  }
+  
+  span:after {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(136, 183, 213, 0);
+    border-right-color: #c40404;
+    border-width: 8px;
+    margin-top: -8px;
+  }
+  
+  input[type="submit"] {
+    background: #c40404;
+    box-shadow: 0 3px 0 0 #c40404;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 1.1em;
+    line-height: 1.1em;
+    margin: 1em 0 0;
+    outline: none;
+    padding: .4em 0;
+    text-shadow: 0 1px #68B25B;
+  }
+
+  .modal-header{
+
+    background-image: url('../assets/images/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 100px;
+  }
+
+  .modal-body{
+    background-color:#0056b8;
+  }
+
+  .modalButton{
+    background-color:black;
+    color:white;
+    border-radius: 10%;
+    text-align: center;
+  }
+  .modal-footer{
+    background-color: #fff;
+  }
+  .mb1,.m1{
+    margin-left: 20%;
+  }
+  button:hover{
+    background-color: #0056b8;
+  }
+  .modalButton:hover{
+    background-color: #0056b8;
+    color: #fff;
+  }
+  .IconsearchFriends{
+    width: 5%;
+    margin-left: 95%;
+  }
+
+  .search{
+    margin-left: 60%;
+    margin-top: -5%
+  }
+  #contenido{
+    background-color: #c40404;
+    width: 40px;
+    height: 40px;
+  }
+  .profileBody{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-image: url('../assets/images/runin.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x:500px;
+    height: 100vh;
+  
+  }
+ 
+  .navigator{
+    margin-top: 0%;
+     margin-left: 0%;
+    height: 30%;
+  }
+  
+  a{
+    font-size: 14px;
+  
+  }
+
+  .profile{
+    height: 20%;
+   
+  }
+  .small{
+    position: absolute;
+    width: 90%;
+    margin-top: 5%;
+    box-shadow: 4px 4px 6px #999;
+    border-radius: 50%;
+  }
+  
+  
+ .articulo1{
+   width: 20%;
+   margin-left: 4%;
+   
+ }
+ .text-left{
+   padding: 0px;
+   margin-left: 0px;
+
+
+ }
+ 
+
+ .close{
+   background-color: white;
+   margin-right: 10%;
+   
+ }
+   
+ .paragraph{
+   color:hsl(231, 72%, 58%);
+   font-size:14px;
+   font-weight:200;
+   margin-left: 3%;
+ }
+ .name{
+   margin-top: 45%;
+ }
+
+
+ .square-post {
+   color: black;
+   border: 2px solid yellowgreen;
+   height: 50vh;
+ }
+
+
+ 
+ .contProfile{
+    
+   
+ }
+ .ulProfile{
+   margin-top:37%;
+   margin-left: 0%;
+   list-style: none;
+
+
+ }
+ .listProfile{
+   display: inline;
+   text-decoration: none;
+   float:right;
+   list-style: none;
+ }
+ span{
+   background-color:transparent;
+   margin:0%;
+   padding: 0%;
+ }
