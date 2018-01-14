@@ -1,79 +1,59 @@
 
 body{
   font-family: 'Vollkorn', serif;
+  color: #fff;
 
 }
 
-header{
-    background: #fff;
-      margin-top: 0%
-    
+.headerFirstPage{
+  background:hsl(60, 93%, 47%);
+  margin-top: 0%;
+  height: 111px;   
 }
-ul{
-  margin-left: 10%;
-  margin-top: 5%;
-}
-
-nav ul {
-  margin-top: 0;
-}
-
-#start-login{
-  margin-left: 5%;
-  background-color: black;
-  color:white;
-  border-radius: 10%
-
-}
-#start-login:hover{
-  background-color: #0056b8;
-}
-.imgFitnes{
-
-  width: 150px;
-  margin-left: -10%;
-  margin-top: -10%;
- 
-}
-
-.btn1{
-    display: inline-block;
-    background-color: black;
-    color:white;
-    border: 1px solid white;
-    margin-left:25%;
-    border-radius: 10%;
-    margin-top: 0%;
-    width: 80px
-    
-}
-.first{
-
-    margin-left: 50%;
-    display: inline-block;
-    background-color: black;
-    color:white;
-    border: 1px solid white;
-    margin-left:15%;
-    border-radius: 10%;
-    margin-top: 0%;
-    width: 80px
-}
-.rsocial{
-  width: 30px;
-  margin-left: 10px;
-}
-
 .firtsPage{
     
-    background-image: url('https://games-assets.crossfit.com/s3fs-public/styles/sizzle/public/2018OpenSIzzle_8%20%281%29.jpg?itok=5zmFq68i');
-    background-size: cover;
-    background-position:center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    
+  background-image: url('../assets/images/trainning.gif');
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  margin-top: 0%;
+  height: 100vh;
+  width: 1363px;
+  
+
+   
 }  
-.play{
+.pain{
+  border-radius: 50%;
+  width: 25%;
+  height: 25%;
+}
+a{
+  color:black;
+}
+/* efecto Letra*/
+ svg{
+  background-size: .12em 100%;
+  font: 16em/1 Arial;
+
+}
+
+.text--line {
+  font-size: .5em;
+  }
+
+svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+
+.modalFrase{
+  color:black;
+ margin-left: %;
+}
+/*.play{
     margin-left: 20%;
     margin-top: 5%;
     background-color: transparent;
@@ -81,7 +61,8 @@ nav ul {
     border: 1px solid white;
     color: white;
 
-}
+}*/
+
 
 form {
     
@@ -187,7 +168,7 @@ form {
   }
 
   .modal-body{
-    background-color:#0056b8;
+    background-color:hsl(60, 93%, 47%);
   }
 
   .modalButton{
@@ -230,7 +211,10 @@ form {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x:500px;
-    height: 100vh;
+    height: 80vh;
+   
+    margin-top: -2%;
+    
   
   }
  
@@ -252,7 +236,7 @@ form {
   .small{
     position: absolute;
     width: 90%;
-    margin-top: 5%;
+    margin-top: 15%;
     box-shadow: 4px 4px 6px #999;
     border-radius: 50%;
   }
@@ -278,13 +262,13 @@ form {
  }
    
  .paragraph{
-   color:hsl(231, 72%, 58%);
+   color:black;
    font-size:14px;
    font-weight:200;
    margin-left: 3%;
  }
  .name{
-   margin-top: 45%;
+   margin-top: 35%;
  }
 
 
@@ -301,8 +285,8 @@ form {
    
  }
  .ulProfile{
-   margin-top:37%;
-   margin-left: 0%;
+   margin-left:-20px;
+
    list-style: none;
 
 
@@ -310,7 +294,7 @@ form {
  .listProfile{
    display: inline;
    text-decoration: none;
-   float:right;
+   
    list-style: none;
  }
  span{
@@ -318,3 +302,133 @@ form {
    margin:0%;
    padding: 0%;
  }
+ .navbar{
+   background-color:rgb(231, 231, 8);
+
+ }
+ .formText{
+   width: 60%;
+   height: 200px;
+   background-color: rgb(231, 231, 8);
+   margin-left: 3%;
+   border-radius:3%;
+   margin-top: 5%;
+ }
+ Textarea{
+   margin-top: 5%;
+   margin-left: 5%;
+   border-radius: 3%;
+ }
+ .post{
+   background-color: blue;
+   margin-top: 1%;
+   margin-left: 80%;
+ }
+ .post:hover{
+   background-color: orangered;
+ }
+ .vd{
+   margin-left: 20%;
+   margin-top: 15%;
+  
+ }
+ .linkFoto{
+   margin-left: 5%;
+   margin-bottom: 1%;
+ }
+ /*perfil de Fotos*/
+ galeria {
+	width: 90%;
+	margin: auto;
+	list-style: none;
+	padding: 20px;
+	box-sizing: border-box;
+	
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+.album{
+  list-style: none;
+  float: left;
+}
+
+.galeria li {
+	margin: 5px;
+}
+
+.galeria img {
+	width: 150px;
+	height: 100px;
+}
+
+/*Estilos del modal*/
+
+.modal {
+	display: none;
+}
+
+.modal:target {
+	
+	display: block;
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.modal h3 {
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	margin: 15px 0;
+}
+
+.imagen {
+	width: 100%;
+	height: 50%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imagen a {
+	color: #fff;
+	font-size: 40px;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+.imagen a:nth-child(2) {
+	margin: 0;
+	height: 100%;
+	flex-shrink: 2;
+}
+
+.imagen img {
+	width: 500px;
+	height: 100%;
+	max-width: 100%;
+	border: 7px solid #fff;
+	box-sizing: border-box;
+}
+
+.cerrar {
+	display: block;
+	background: #fff;
+	width: 25px;
+	height: 25px;
+	margin: 15px auto;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	color: #000;
+	padding: 5px;
+	border-radius: 50%;
+	line-height: 25px;
+}
+ 

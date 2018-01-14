@@ -6,6 +6,9 @@ $(document).ready(function () {
    $('.createCount').show('slow');
 
  });*/
+
+
+ 
   $('#submit').prop('disabled', true);
   
     // desactivando primer span
@@ -259,4 +262,8 @@ $(document).ready(function () {
         });
       });
     });
+
+
+    //fotos en linea
+    
   })

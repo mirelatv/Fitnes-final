@@ -11,23 +11,73 @@
     <title>Document</title>
 </head>
 
-<body>
-    <div style="display:none"   class="containerSplash"></div>
-    <header>
-      <ul class="nav nav-pills">
-        <li role="presentation" class=""><img class="imgFitnes" src="assets/images/logo-fitnes.png" alt=""></li>
-        <li role="presentation" class=""><button class=" btn1 first " data-toggle="modal" data-target=".bs-example-modal-sm">LogIn</button> </li>
-        <li role="presentation" class=""><button class=" btn1 register"   data-toggle="modal" data-target="#myModal">Register</button></li>
-        <div id="login" role="presentation" class=""><button id="start-login">iniciar sesion con Google</button></div>
-               
-      </ul>
-    </header>
+<body >
     
-    <section class=" firtsPage" >
-       
-      <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  	<header class="headerFirstPage">
+      
+        <div class="container header inner">
+        <nav style="margin-top:5%" class="navbar ">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul   class="nav navbar-nav navbar-right masthead-nav">
+                <li  class="listHeader"><a data-toggle="modal" data-target="#myModal">REGISTER</a></li>
+                <li class="listHeader"><a data-toggle="modal" data-target=".bs-example-modal-sm">LOGIN</a></li>
+                <li class="listHeader"><a id="start-login">INICIA CON GOOGLE</a></li>
+                <li class="listHeader"><a href="#"> FACEBOOK</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        </div>
+    </header>
+            
+    <section style="color: goldenrod;"  class=" firtsPage row" >
+      
+        <svg viewBox="0 0 800 600">
+            <symbol id="s-text">
+              <text   text-anchor="middle"
+                    x="50%"
+                    y="35%"
+                    class="text--line"
+                    >
+                INFINIT
+              </text>
+              <text text-anchor="middle"
+                    x="60%"
+                    y="68%"
+                    class="text--line2"
+                    >
+                FITNESS
+              </text>
+              
+            </symbol>
+            
+            <g class="g-ants">
+              <use xlink:href="#s-text"
+                class="text-copy"></use>     
+              <use xlink:href="#s-text"
+                class="text-copy"></use>     
+              <use xlink:href="#s-text"
+                class="text-copy"></use>     
+              <use xlink:href="#s-text"
+                class="text-copy"></use>     
+              <use xlink:href="#s-text"
+                class="text-copy"></use>     
+            </g>
+                        
+          </svg>
+
+         <!-- Modal -->
+     <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
         <div class="modal-dialog modal-sm" role="document">
-           <div class="modal-content ">
+           <div class="modal-body">
              <br>
               <input id="username2" class="m1 "  id="acceso"  placeholder="Correo de acceso" type="mail-acceso">
               <br>
@@ -66,7 +116,7 @@
                         </p>
                             
                      <p>
-                       <input id="submit"  class=" modalButton"   type="button" value="Registrarse" >
+                       <button  id="submit"  class=" modalButton"   type="button" value="Registrarse"type="button" class="close" data-dismiss="modal">Resgistrate</button >
                     </p>
                    </form>   
                  </div>
@@ -74,7 +124,8 @@
 
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-default modalButton" data-dismiss="modal">Welcome!</button>
+              <P class="modalFrase">INFINIT && FITNESS</P>
+              
             </div>
           </div>
           
