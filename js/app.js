@@ -2,12 +2,20 @@ $(document).ready(function () {
 
   /*Evento a  click de  registrarse 
 
-$('.register').click(function () {
- $('.createCount').show('slow');
+  $('.register').click(function () {
+  $('.createCount').show('slow');
 
-});*/
-
-
+  });*/
+  // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCP8cWojta5O-7-hinpXcZMTBX4-gi4HPg",
+      authDomain: "usuarios-472dd.firebaseapp.com",
+      databaseURL: "https://usuarios-472dd.firebaseio.com",
+      projectId: "usuarios-472dd",
+      storageBucket: "usuarios-472dd.appspot.com",
+      messagingSenderId: "470644492759"
+    };
+    firebase.initializeApp(config);
 
   $('#submit').prop('disabled', true);
 
