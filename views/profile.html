@@ -116,7 +116,7 @@
           <div>
             <label class="picturelabel" for="picture">
               <input id="picture" class="linkFoto hidden" type="file">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
+              <i  id="file" class="fa fa-picture-o" aria-hidden="true"></i>
             </label>
             <button class="btn btn-primary">Postear</button>
           </div>
@@ -128,10 +128,13 @@
             <i></i>
           </a>
         </div>
+        <div id="posts-container" class=" col-md-8" style="display:none">
+            <small id="upload-msg" class="text-success font-weight-bold"></small>
+
+        </div>
 
         <div class="videos col-md-4">
-          <iframe class="vd" width="350" height="200" src="https://www.youtube.com/embed/juKsP0XejSI" frameborder="0" allow="autoplay; encrypted-media"
-            allowfullscreen></iframe>
+          <iframe class="vd" width="350" height="200" src="https://www.youtube.com/embed/juKsP0XejSI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
         </div>
       </div>
