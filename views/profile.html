@@ -111,52 +111,52 @@
 
     <section class="container">
       <div class="row">
-      <div class="formText col-md-8">
-        <textarea type="text" size="150" maxlength="150" value="que estas pensando?" name="nombre" rows="5"></textarea>
-        <div>
-          <label class="picturelabel" for="picture">
-            <input id="picture" class="linkFoto hidden" type="file">
-            <i class="fa fa-picture-o" aria-hidden="true"></i>
-          </label>
-          <button class="btn btn-primary">Postear</button>
+        <div class="formText col-md-8">
+          <textarea type="text" size="150" maxlength="150" value="que estas pensando?" name="nombre" rows="5"></textarea>
+          <div>
+            <label class="picturelabel" for="picture">
+              <input id="picture" class="linkFoto hidden" type="file">
+              <i class="fa fa-picture-o" aria-hidden="true"></i>
+            </label>
+            <button class="btn btn-primary">Postear</button>
+          </div>
+        </div>
+        <div class="formText col-md-8" style="display:none">
+          <input style="margin-top:5%;margin-left:5%;height:80px;" type="text" size="95;" maxlength="150" value="que estas pensando?"
+            name="nombre"></input>
+          <a href="#" class="button post">
+            <i></i>
+          </a>
+        </div>
+
+        <div class="videos col-md-4">
+          <iframe class="vd" width="350" height="200" src="https://www.youtube.com/embed/juKsP0XejSI" frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
+
         </div>
       </div>
-      <div class="formText col-md-8" style="display:none">
-        <input style="margin-top:5%;margin-left:5%;height:80px;" type="text" size="95;" maxlength="150" value="que estas pensando?"
-          name="nombre"></input>
-        <a href="#" class="button post">
-          <i></i>
-        </a>
-      </div>
-
-      <div class="videos col-md-4">
-        <iframe class="vd" width="350" height="200" src="https://www.youtube.com/embed/juKsP0XejSI" frameborder="0" allow="autoplay; encrypted-media"
-          allowfullscreen></iframe>
-
-      </div>
-    </div>
-  </section>
+    </section>
 
 
 
 
 
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-      <script>
-        // Initialize Firebase
-        var config = {
-          apiKey: "AIzaSyCP8cWojta5O-7-hinpXcZMTBX4-gi4HPg",
-          authDomain: "usuarios-472dd.firebaseapp.com",
-          databaseURL: "https://usuarios-472dd.firebaseio.com",
-          projectId: "usuarios-472dd",
-          storageBucket: "usuarios-472dd.appspot.com",
-          messagingSenderId: "470644492759"
-        };
-        firebase.initializeApp(config);
-      </script>
-      <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
-      <Script src="../js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCP8cWojta5O-7-hinpXcZMTBX4-gi4HPg",
+        authDomain: "usuarios-472dd.firebaseapp.com",
+        databaseURL: "https://usuarios-472dd.firebaseio.com",
+        projectId: "usuarios-472dd",
+        storageBucket: "usuarios-472dd.appspot.com",
+        messagingSenderId: "470644492759"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+    <Script src="../js/app.js"></script>
 
   </body>
 

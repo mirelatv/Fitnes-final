@@ -1,96 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-        <link rel="stylesheet" href="../css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
     <title>Document</title>
 </head>
+
 <body style="background-color:hsl(60, 85%, 64%)">
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="#">PERFIL<span class="sr-only">(current)</span></a></li>
-          <li><a class="" href="index2.html">HOME</a></li>
-          <li style=" width:150px;margin-left:50%;margin-top:-17%;" class="close"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cerrar Sesion</a>
-          </li>
-       </ul>
-    </div>
-        
-    <h1> TUS FOTOS</h1>
-	
-        <ul class="galeria" >
-            <span>Album1</span>
-            <li class="album"><a href="#img1"><img src="../assets/images/fotoPerfil/family.jpg"></a></li>
-            <span>Album2</span>
-            <li class="album"><a href="#img2"><img src="../assets/images/fotoPerfil/nunaywasy.jpg"></a></li>
-            <span>Album3</span>
-            <li class="album"><a href="#img3"><img src="../assets/images/fotoPerfil/tuna2.jpg"></a></li>
-            <span>Album4</span>
-            <li class="album"><a href="#img4"><img src="../assets/images/fotoPerfil/tuna3.jpg"></a></li>
+            <li class="active">
+                <a href="#">PERFIL
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li>
+                <a class="" href="index2.html">HOME</a>
+            </li>
+            <li style=" width:150px;margin-left:50%;margin-top:-17%;" class="close">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Cerrar Sesion</a>
+            </li>
         </ul>
-    
-        <div class="modal" id="img1">
-            <h3>Album 1</h3>
-            <div class="imagen">
-                <a href="#img4"><img src="../assets/images/fotoPerfil/family.jpg" alt=""></a>
-                <a href="#img2"><img src="../assets/images/fotoPerfil/nunaywasy.jpg"></a>
-                <a href="#img2"> <img src="../assets/images/fotoPerfil/tuna3.jpg" alt=""></a>
-            </div>
-            <a class="cerrar" href="">X</a>
-        </div>
-        
-        <div class="modal" id="img2">
-            <h3>Album 2</h3>
-            <div class="imagen">
-                <a href="#img1"><img src="../assets/images/runHade.jpg" alt=""></a>
-                <a href="#img3"><img src="../assets/images/women.jpg"></a>
-                <a href="#img3"> <img src="../assets/images/women2.jpg"></a>
-            </div>
-            <a class="cerrar" href="">X</a>
-        </div>
-        
-        <div class="modal" id="img3">
-            <h3>Album 3</h3>
-            <div class="imagen">
-                <a href="#img2"><img src="http://neo-deco.es/wp-content/uploads/2013/01/Paisaje-de-monta%C3%B1a.jpg" alt="">;</a>
-                <a href="#img4"><img src="http://www.paisajesimagenes.com/wp-content/uploads/Descripci%C3%B3n-de-paisajes..jpg"></a>
-                <a href="#img4">></a>
-            </div>
-            <a class="cerrar" href="">X</a>
-        </div>
-        
-        <div class="modal" id="img4">
-            <h3>Album 4</h3>
-            <div class="imagen">
-                <a href="#img3"><img src="http://neo-deco.es/wp-content/uploads/2013/01/Paisaje-de-monta%C3%B1a.jpg" alt="">;</a>
-                <a href="#img1"><img src="http://neo-deco.es/wp-content/uploads/2013/01/Paisaje-de-monta%C3%B1a.jpg"></a>
-                <a href="#img1">></a>
-            </div>
-            <a class="cerrar" href="">X</a>
-        </div>
-        
-    
-             <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-  <script>
-    // Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyCP8cWojta5O-7-hinpXcZMTBX4-gi4HPg",
-      authDomain: "usuarios-472dd.firebaseapp.com",
-      databaseURL: "https://usuarios-472dd.firebaseio.com",
-      projectId: "usuarios-472dd",
-      storageBucket: "usuarios-472dd.appspot.com",
-      messagingSenderId: "470644492759"
-    };
-    firebase.initializeApp(config);
-  </script>
-  <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
-  <Script src="../js/app.js"></script>
+    </div>
 
-    
+    <h1> TUS FOTOS</h1>
+
+    <ul class="galeria">
+        <span>Album1</span>
+        <li class="album">
+            <a href="#img1">
+                <img src="../assets/images/fotoPerfil/family.jpg">
+            </a>
+        </li>
+        <span>Album2</span>
+        <li class="album">
+            <a href="#img2">
+                <img src="../assets/images/fotoPerfil/nunaywasy.jpg">
+            </a>
+        </li>
+        <span>Album3</span>
+        <li class="album">
+            <a href="#img3">
+                <img src="../assets/images/fotoPerfil/tuna2.jpg">
+            </a>
+        </li>
+        <span>Album4</span>
+        <li class="album">
+            <a href="#img4">
+                <img src="../assets/images/fotoPerfil/tuna3.jpg">
+            </a>
+        </li>
+    </ul>
+
+    <div class="modal" id="img1">
+        <h3>Album 1</h3>
+        <div class="imagen">
+            <a href="#img4">
+                <img src="../assets/images/fotoPerfil/family.jpg" alt="">
+            </a>
+            <a href="#img2">
+                <img src="../assets/images/fotoPerfil/nunaywasy.jpg">
+            </a>
+            <a href="#img2">
+                <img src="../assets/images/fotoPerfil/tuna3.jpg" alt="">
+            </a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+    <div class="modal" id="img2">
+        <h3>Album 2</h3>
+        <div class="imagen">
+            <a href="#img1">
+                <img src="../assets/images/runHade.jpg" alt="">
+            </a>
+            <a href="#img3">
+                <img src="../assets/images/women.jpg">
+            </a>
+            <a href="#img3">
+                <img src="../assets/images/women2.jpg">
+            </a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+    <div class="modal" id="img3">
+        <h3>Album 3</h3>
+        <div class="imagen">
+            <a href="#img2">
+                <img src="http://neo-deco.es/wp-content/uploads/2013/01/Paisaje-de-monta%C3%B1a.jpg" alt="">;</a>
+            <a href="#img4">
+                <img src="http://www.paisajesimagenes.com/wp-content/uploads/Descripci%C3%B3n-de-paisajes..jpg">
+            </a>
+            <a href="#img4">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+    <div class="modal" id="img4">
+        <h3>Album 4</h3>
+        <div class="imagen">
+            <a href="#img3">
+                <img src="http://neo-deco.es/wp-content/uploads/2013/01/Paisaje-de-monta%C3%B1a.jpg" alt="">;</a>
+            <a href="#img1">
+                <img src="http://neo-deco.es/wp-content/uploads/2013/01/Paisaje-de-monta%C3%B1a.jpg">
+            </a>
+            <a href="#img1">></a>
+        </div>
+        <a class="cerrar" href="">X</a>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyCP8cWojta5O-7-hinpXcZMTBX4-gi4HPg",
+            authDomain: "usuarios-472dd.firebaseapp.com",
+            databaseURL: "https://usuarios-472dd.firebaseio.com",
+            projectId: "usuarios-472dd",
+            storageBucket: "usuarios-472dd.appspot.com",
+            messagingSenderId: "470644492759"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+    <Script src="../js/app.js"></script>
+
+
 </body>
+
 </html>

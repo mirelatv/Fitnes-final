@@ -89,9 +89,16 @@
   width: 100%;
   position: absolute;
   top: 0;
-  z-index: -1;   
+  z-index: -1;
+}   
+  
+.firstPageEfecto{
   font-size: 16em;
-}  
+}
+.modal-backdrop.in {
+  opacity: 0;
+}
+  
 
 .pain{
   border-radius: 50%;
@@ -190,7 +197,7 @@ form {
   }
   
   label {
-    display: inline;
+   /* display: inline;*/
     font-size: 1.2em;
     margin: 0 0 .5em;
     color: #333;
@@ -200,7 +207,7 @@ form {
   
   
   input {
-    display: block;
+   /* display: block;*/
     box-sizing: border-box;
     outline: none;
   }
@@ -323,7 +330,6 @@ form {
    
     margin-top: -2%;
     
-  
   }
  
   .navigator{
