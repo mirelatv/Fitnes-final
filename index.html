@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -8,158 +9,178 @@
   <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
+  <title>Document</title>
 </head>
 
-<body >
-    
-  	<header class="headerFirstPage">
-      
-        <div class="container header inner">
-        <nav style="margin-top:5%" class="navbar ">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>                        
-              </button>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-              <ul   class="nav navbar-nav navbar-right masthead-nav">
-                <li  class="listHeader"><a data-toggle="modal" data-target="#myModal">REGISTER</a></li>
-                <li class="listHeader"><a data-toggle="modal" data-target=".bs-example-modal-sm">LOGIN</a></li>
-                <li class="listHeader"><a id="start-login">INICIA CON GOOGLE</a></li>
-                <li class="listHeader"><a href="#"> FACEBOOK</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        </div>
-    </header>
-            
-    <section style="color: goldenrod;"  class=" firtsPage row" >
-      
-        <svg viewBox="0 0 800 600">
-            <symbol id="s-text">
-              <text   text-anchor="middle"
-                    x="50%"
-                    y="35%"
-                    class="text--line"
-                    >
-                INFINIT
-              </text>
-              <text text-anchor="middle"
-                    x="60%"
-                    y="68%"
-                    class="text--line2"
-                    >
-                FITNESS
-              </text>
-              
-            </symbol>
-            
-            <g class="g-ants">
-              <use xlink:href="#s-text"
-                class="text-copy"></use>     
-              <use xlink:href="#s-text"
-                class="text-copy"></use>     
-              <use xlink:href="#s-text"
-                class="text-copy"></use>     
-              <use xlink:href="#s-text"
-                class="text-copy"></use>     
-              <use xlink:href="#s-text"
-                class="text-copy"></use>     
-            </g>
-                        
-          </svg>
+<body>
 
-         <!-- Modal -->
-     <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-        <div class="modal-dialog modal-sm" role="document">
-           <div class="modal-body">
-             <br>
-              <input id="username2" class="m1 "  id="acceso"  placeholder="Correo de acceso" type="mail-acceso">
-              <br>
-              <input id="password2" class=" m1" id="PasswordRegistrado" placeholder="Pasword registrado" type="password"> 
-              <br>
-              <button  id="submit2" type="button" class="btn btn-default modalButton mb1" data-dismiss="modal" href='views/index2.html'>Ingresar!</button>
-              <br>
-              <br>
-              
-           </div>
-                 
+  <header class="headerFirstPage">
+
+    <nav class="navbar ">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a style="font-weight:600;letter-spacing:0.5em;color:#1B8798" class="navbar-brand" href="#">
+            INFINIT FITNESS
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+
+          <ul class="nav navbar-nav navbar-right masthead-nav">
+            <li class="listHeader">
+              <a data-toggle="modal" data-target="#myModal">
+                <button class="btn btn-warning">REGISTER</button>
+              </a>
+            </li>
+            <li class="listHeader">
+              <a data-toggle="modal" data-target=".bs-example-modal-sm">
+                <button class="btn btn-warning"> LOGIN</button>
+              </a>
+            </li>
+            <li class="listHeader">
+              <a id="start-login">
+                <button class=" btn btn-danger">INICIA CON GOOGLE</button>
+              </a>
+            </li>
+            <li class="listHeader">
+              <a href="#">
+                <button class="btn btn-primary">FACEBOOK</button>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
-        <!-- Modal -->
-     <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog">
-        
-          <!-- Modal content-->
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-              
-            </div>
-            <div class="modal-body">
-                <div class="createCount">
-                    <form action="#" method="post">
-                      <p>
-                        <label for="Email">Username</label>
-                        <input id="username" placeholder="username" type="email">
-                        <span style="display:none">Enter a username longer than 3 characters</span>
-                      </p>
-                      <p>
-                        <label for="password">Password</label>
-                        <input id="password" placeholder="password" type="password">
-                        <span style="display:none">Enter a password longer than 6 characters</span>
-                        </p>
-                            
-                     <p>
-                       <button  id="submit"  class=" modalButton"   type="button" value="Registrarse"type="button" class="close" data-dismiss="modal">Resgistrate</button >
-                    </p>
-                   </form>   
-                 </div>
+    </nav>
+  </header>
+
+  <section style="color: goldenrod;" class=" firtsPage">
+
+      <svg viewBox="0 0 800 600">
+          <symbol id="s-text">
+            <text text-anchor="middle"
+                  x="50%"
+                  y="35%"
+                  class="text--line"
+                  >
+              INFINIT
+            </text>
+            <text text-anchor="middle"
+                  x="50%"
+                  y="68%"
+                  class="text--line2"
+                  >
+              FITNESS
+            </text>
             
-
-            </div>
-            <div class="modal-footer">
-              <P class="modalFrase">INFINIT && FITNESS</P>
-              
-            </div>
-          </div>
+          </symbol>
           
+          <g class="g-ants">
+            <use xlink:href="#s-text"
+              class="text-copy"></use>     
+            <use xlink:href="#s-text"
+              class="text-copy"></use>     
+            <use xlink:href="#s-text"
+              class="text-copy"></use>     
+            <use xlink:href="#s-text"
+              class="text-copy"></use>     
+            <use xlink:href="#s-text"
+              class="text-copy"></use>     
+          </g>
+          
+          
+        </svg>
+
+    <!-- Modal -->
+    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-body">
+          <br>
+          <input id="username2" class="m1 " id="acceso" placeholder="Correo de acceso" type="mail-acceso">
+          <br>
+          <input id="password2" class=" m1" id="PasswordRegistrado" placeholder="Pasword registrado" type="password">
+          <br>
+          <button id="submit2" type="button" class="btn btn-default modalButton mb1" data-dismiss="modal" href='views/index2.html'>Ingresar!</button>
+          <br>
+          <br>
+
         </div>
-       
-      
 
-        
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
 
-    </section>
-        
-        
-    
-       
-   
-  
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
-    <script>
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+          </div>
+          <div class="modal-body">
+            <div class="createCount">
+              <form action="#" method="post">
+                <p>
+                  <label for="Email">Username</label>
+                  <input id="username" placeholder="username" type="email">
+                  <span style="display:none">Enter a username longer than 3 characters</span>
+                </p>
+                <p>
+                  <label for="password">Password</label>
+                  <input id="password" placeholder="password" type="password">
+                  <span style="display:none">Enter a password longer than 6 characters</span>
+                </p>
+
+                <p>
+                  <button id="submit" class=" modalButton" type="button" value="Registrarse" type="button" class="close" data-dismiss="modal">Resgistrate</button>
+                </p>
+              </form>
+            </div>
+
+
+          </div>
+          <div class="modal-footer">
+            <P class="modalFrase">INFINIT && FITNESS</P>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+  </section>
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
     // Initialize Firebase
     var config = {
-        apiKey: "AIzaSyCP8cWojta5O-7-hinpXcZMTBX4-gi4HPg",
-        authDomain: "usuarios-472dd.firebaseapp.com",
-        databaseURL: "https://usuarios-472dd.firebaseio.com",
-        projectId: "usuarios-472dd",
-        storageBucket: "usuarios-472dd.appspot.com",
-        messagingSenderId: "470644492759"
+      apiKey: "AIzaSyCP8cWojta5O-7-hinpXcZMTBX4-gi4HPg",
+      authDomain: "usuarios-472dd.firebaseapp.com",
+      databaseURL: "https://usuarios-472dd.firebaseio.com",
+      projectId: "usuarios-472dd",
+      storageBucket: "usuarios-472dd.appspot.com",
+      messagingSenderId: "470644492759"
     };
     firebase.initializeApp(config);
-    </script>
-    <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
-    <Script src="js/app.js"></script>
-    
-      
+  </script>
+  <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+  <Script src="js/app.js"></script>
+
+
 
 </body>
+
 </html>

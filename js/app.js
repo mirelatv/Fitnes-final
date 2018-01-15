@@ -81,6 +81,7 @@ $(document).ready(function () {
     } else {
       console.log('usuario no existe');
       // User is signed out.
+      $(document.body).html('<h1>NO ESTAS REGISTRADO</h1>');
       // ...
     }
   });
